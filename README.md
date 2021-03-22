@@ -6,6 +6,6 @@ The project is to help fellow researchers, Roza & her volunteers access an indiv
 
 ![Improbable_beef](https://github.com/Zainak94/Improbable_beef/blob/main/Resources/Top10.PNG)
 
-![Improbable_beef](https://github.com/Zainak94/Improbable_beef/blob/main/Resources/Srubs_per_week.PNG)
+![Improbable_beef](https://github.com/Zainak94/Improbable_beef/blob/main/Resources/Scrubs_per_week.PNG)
 
 ![Improbable_beef](https://github.com/Zainak94/Improbable_beef/blob/main/Resources/OTU_ID.PNG)
