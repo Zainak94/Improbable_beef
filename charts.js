@@ -61,8 +61,7 @@ function buildCharts(sample) {
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
     var metadata = data.metadata;
     var resultArrayMetadata = metadata.filter(sampleObj => sampleObj.id == parseInt(sample));
-    //expected result: 1 object matching ID
-
+    
     // Create a variable that holds the first sample in the array.
     var samples = data.samples;
     var resultArraySamples = samples.filter(sampleObj=> parseInt(sampleObj.id) == sample);
@@ -84,7 +83,7 @@ function buildCharts(sample) {
     // Hint: Get the the top 10 otu_ids and map them in descending order 
     // so the otu_ids with the most bacteria are last.  
 
-    // create an array of arrays with samples' sample_values indexed
+    // create an array of arrays with samples
     var all_sample_values_indexed = [];
     for (var index = 0; index < all_sample_values.length;index++){
       all_sample_values_indexed[index]=[all_sample_values[index], index];
